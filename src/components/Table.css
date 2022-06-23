@@ -1,0 +1,19 @@
+table {
+  border-top: 1px solid rgb(188, 188, 188);
+  border-collapse: collapse;
+  width: 30rem;
+  table-layout: fixed; 
+  word-break: break-all;
+}
+.table-first-tr th{
+  padding: 20px 0;
+}
+.table-second-tr th{
+  padding: 10px 0;
+}
+th, td{
+  border-bottom: 1px solid rgb(188, 188, 188);
+}
+.table-first-tr, .table-second-tr th:first-child{
+  background-color: rgb(241, 241, 241);
+}
