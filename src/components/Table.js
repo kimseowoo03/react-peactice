@@ -3,30 +3,26 @@ import './Table.css'
 
 function Table() {
   return(
-    <table>
-        <thead>
-          <tr className='table-first-tr'>
-            <th>Size</th>
-            <th>Shoulder</th>
-            <th>Bust</th>
-            <th>Sleeves</th>
-            <th>Wrist</th>
-            <th>Armhole</th>
-            <th>Length</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr tr className='table-second-tr'>
-            <th>{data[0].size}</th>
-            {data[0].value === 0 ?<th> - </th>: <th>{data[0].value}</th>}
-            {data[1].value === 0 ?<th> - </th>: <th>{data[1].value}</th>}
-            {data[2].value === 0 ?<th> - </th>: <th>{data[2].value}</th>}
-            {data[3].value === 0 ?<th> - </th>: <th>{data[3].value}</th>}
-            {data[4].value === 0 ?<th> - </th>: <th>{data[4].value}</th>}
-            {data[5].value === 0 ?<th> - </th>: <th> {data[5].value}</th>}
-          </tr>
-        </tbody>
-      </table>
+    <div className='table'>
+    <ul>
+      <li>Size</li>
+      <li>Shoulder</li>
+      <li>Bust</li>
+      <li>Sleeves</li>
+      <li>Wrist</li>
+      <li>Armhole</li>
+      <li>Length</li>
+    </ul>
+    <ul>
+    <li>{data[0].size}</li>
+    {data[0].value === 0 ?<li>-</li> :<li>{data[0].value}</li>}
+    {data[1].value === 0 ?<li>-</li> :<li>{data[1].value}</li>}
+    {data[2].value === 0 ?<li>-</li> :<li>{data[2].value}</li>}
+    {data[3].value === 0 ?<li>-</li> :<li>{data[3].value}</li>}
+    {data[4].value === 0 ?<li>-</li> :<li>{data[4].value}</li>}
+    {data[5].value === 0 ?<li>-</li> :<li>{data[5].value}</li>}
+  </ul>
+  </div>
   )
 }
 
