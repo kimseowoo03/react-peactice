@@ -4,23 +4,13 @@ import './Table.css'
 function Table() {
   return(
     <div className='table'>
-    <ul>
-      <li>Size</li>
-      <li>Shoulder</li>
-      <li>Bust</li>
-      <li>Sleeves</li>
-      <li>Wrist</li>
-      <li>Armhole</li>
-      <li>Length</li>
+    <ul className='table-ul'>
+      <li className='table-li'>Size</li>
+      {data.map(data => <li className='table-li'>{data.sizeInfoMaster.title}</li>)}
     </ul>
-    <ul>
-    <li>{data[0].size}</li>
-    {data[0].value === 0 ?<li>-</li> :<li>{data[0].value}</li>}
-    {data[1].value === 0 ?<li>-</li> :<li>{data[1].value}</li>}
-    {data[2].value === 0 ?<li>-</li> :<li>{data[2].value}</li>}
-    {data[3].value === 0 ?<li>-</li> :<li>{data[3].value}</li>}
-    {data[4].value === 0 ?<li>-</li> :<li>{data[4].value}</li>}
-    {data[5].value === 0 ?<li>-</li> :<li>{data[5].value}</li>}
+    <ul className='table-ul'>
+    <li className='table-li'>{data[0].size}</li>
+    {data.map(data => data.value === 0 ? <li className='table-li'>-</li>: <li className='table-li'>{data.value}</li>)}
   </ul>
   </div>
   )
