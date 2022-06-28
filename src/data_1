@@ -1,0 +1,80 @@
+[
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5289,
+    "size": "FREE",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 4,
+      "id": 1,
+      "title": "Shoulder"
+    },
+    "sizeInfoMasterId": 1,
+    "value": 0
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5290,
+    "size": "FREE",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 4,
+      "id": 2,
+      "title": "Bust"
+    },
+    "sizeInfoMasterId": 2,
+    "value": 27
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5291,
+    "size": "FREE",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 4,
+      "id": 3,
+      "title": "Sleeves"
+    },
+    "sizeInfoMasterId": 3,
+    "value": 0
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5292,
+    "size": "FREE",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 4,
+      "id": 4,
+      "title": "Wrist"
+    },
+    "sizeInfoMasterId": 4,
+    "value": 0
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5293,
+    "size": "FREE",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 4,
+      "id": 5,
+      "title": "Armhole"
+    },
+    "sizeInfoMasterId": 5,
+    "value": 0
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5294,
+    "size": "FREE",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 4,
+      "id": 6,
+      "title": "Length"
+    },
+    "sizeInfoMasterId": 6,
+    "value": 28.5
+  }
+]

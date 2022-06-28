@@ -1,0 +1,119 @@
+[
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5728,
+    "size": "S",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 8,
+      "id": 26,
+      "title": "Waist"
+    },
+    "sizeInfoMasterId": 26,
+    "value": 31.5
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5729,
+    "size": "M",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 8,
+      "id": 26,
+      "title": "Waist"
+    },
+    "sizeInfoMasterId": 26,
+    "value": 33.5
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5730,
+    "size": "L",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 8,
+      "id": 26,
+      "title": "Waist"
+    },
+    "sizeInfoMasterId": 26,
+    "value": 35.5
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5731,
+    "size": "S",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 8,
+      "id": 27,
+      "title": "Hip"
+    },
+    "sizeInfoMasterId": 27,
+    "value": 41
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5732,
+    "size": "M",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 8,
+      "id": 27,
+      "title": "Hip"
+    },
+    "sizeInfoMasterId": 27,
+    "value": 43
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5733,
+    "size": "L",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 8,
+      "id": 27,
+      "title": "Hip"
+    },
+    "sizeInfoMasterId": 27,
+    "value": 45
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5734,
+    "size": "S",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 8,
+      "id": 28,
+      "title": "Length"
+    },
+    "sizeInfoMasterId": 28,
+    "value": 39
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5735,
+    "size": "M",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 8,
+      "id": 28,
+      "title": "Length"
+    },
+    "sizeInfoMasterId": 28,
+    "value": 40
+  },
+  {
+    "__typename": "SizeInfoDetail",
+    "id": 5736,
+    "size": "L",
+    "sizeInfoMaster": {
+      "__typename": "SizeInfoMaster",
+      "categoryId": 8,
+      "id": 28,
+      "title": "Length"
+    },
+    "sizeInfoMasterId": 28,
+    "value": 41
+  }
+]
