@@ -21,7 +21,7 @@ const Table2 = () => {
         <ul className='table-two-ul'>
           <li className='table-two-li'>{size}</li>
           {data2.map((v) => {
-            return v.size === size ?<li className='table-two-li'>{v.value}</li> : false
+            return v.size === size ? v.value !== 0 ?<li className='table-two-li'>{v.value}</li> : <li className='table-two-li'>-</li> : false
           })}
         </ul>
       )

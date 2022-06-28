@@ -12,9 +12,6 @@
   list-style: none;
   border-top: 2px solid rgb(200, 200, 200);
 }
-.table-two-ul li:first-child {
-  width: 30%;
-}
 .table-two-ul:not(:first-child) li:not(:first-child) {
   color: gray;
 }
@@ -24,13 +21,18 @@
 .table-two-ul:not(:first-child) {
   line-height: 40px;
 }
-.table-two-li{
-  width: 100%;
-  text-align: center;
-}
 .table-two-ul:first-child, .table-two-li:first-child {
   background-color: rgb(242, 242, 242);
 }
-.table-two-li{
-  width: 100%;
+.table-two-ul li:first-child {
+  text-align: center;
+}
+.table-two-ul li:not(:first-child){
+  text-align: center;
+}
+.table-two-ul li{
+  flex-basis: 50px;
+}
+.table-two-ul li:not(:first-child) {
+  flex: 1;
 }
